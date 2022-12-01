@@ -10,7 +10,7 @@ public class TestEstudiante
     /**
      *  
      */
-    public static void main(String[] args){
+    public static void main(){
         System.out.println("Creamos varios objetos Estudiante");
         Estudiante e1 = new Estudiante("Alberto", 22);
         e1.printEstudiante();
@@ -18,7 +18,8 @@ public class TestEstudiante
         e2.printEstudiante();
         Estudiante e3 = new Estudiante("Elisa", 26);
         e3.printEstudiante();
-        
+        Estudiante e4 = new Estudiante("Endika", 18);
+        e4.printEstudiante();
 
     }
 }
